@@ -21,8 +21,8 @@ class Mobile {
 public class Test2 {
     public static void main(String args[]) throws ClassNotFoundException {
         // Mobile.type = "phone";
-        // Mobile mob1 = new Mobile();
-        // mob1.id = 1;
+        Mobile mob1 = new Mobile();
+        mob1.id = 1;
         // mob1.brand = "Samsung Galaxy S24 Ultra";
         // mob1.type = "Smart phone";
         // System.out.println( mob1.id + "id => " + mob1.brand + " | ");
