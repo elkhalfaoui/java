@@ -60,6 +60,7 @@ public class Test {
         Email email1 = new Email(1, "zakaria@gmail.com", "1999", 25);
         System.out.println(email1.id + " | " + email1.email + " | " + email1.getPass() + " | " + email1.getAge());
         B obj = new B(17);
+        System.out.println(obj);
         
     }
 }
