@@ -11,6 +11,8 @@ public class Class {
         student2.name = "Ali Amekdouf";
         student2.mark = 87;
 
+        
+
         Student student3 = new Student();
         student3.id = 3;
         student3.name = "Othmane Boukhris";
