@@ -5,7 +5,8 @@ public class Class {
         student1.id = 1;
         student1.name = "Zakaria Elkhalfaoui";
         student1.mark = 92;
-
+        
+        
         Student student2 = new Student();
         student2.id = 2;
         student2.name = "Ali Amekdouf";
