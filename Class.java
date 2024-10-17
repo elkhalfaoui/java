@@ -10,6 +10,7 @@ public class Class {
         student2.id = 2;
         student2.name = "Ali Amekdouf";
         student2.mark = 87;
+        
 
         Student student3 = new Student();
         student3.id = 3;
