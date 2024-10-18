@@ -62,6 +62,5 @@ public class Test {
         B obj = new B(17);
         System.out.println(obj);
 
-        
     }
 }
