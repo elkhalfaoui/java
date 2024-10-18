@@ -61,5 +61,7 @@ public class Test {
         System.out.println(email1.id + " | " + email1.email + " | " + email1.getPass() + " | " + email1.getAge());
         B obj = new B(17);
         System.out.println(obj);
+
+        
     }
 }
