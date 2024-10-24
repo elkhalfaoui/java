@@ -27,6 +27,7 @@ public class Main {
 
        System.out.println(calc1.add(3, 4));
        System.out.println(calc1.div(48, 4));
+       System.out.println(calc1.mult(48, 4));
 
     }
 }
