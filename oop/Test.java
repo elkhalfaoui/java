@@ -1,3 +1,5 @@
+package oop;
+
 class A extends Object {
     public A() {
         System.out.println("class A");

@@ -1,3 +1,7 @@
+package oop;
+import java.util.ArrayList;
+// import oop.A;
+
 public class Class {
     public static void main(String[] args) {
 
@@ -25,10 +29,11 @@ public class Class {
             System.out.println(s.id + " | " + s.name + ": " + s.mark);
         }
 
+        ArrayList list = new ArrayList<>();
         
     }
 }
-class Student {
+class Student { 
     int id = 0;
     String name = "Komissa Mostapha";
     byte mark = 99;
