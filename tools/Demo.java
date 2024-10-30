@@ -19,7 +19,7 @@ class Student {
         return this.Grade;
     }
     // obj.getGrade(st);
-    // public int getGrade(Student st) { 
+    // public int getGrade(Student st) {
     //     return st.Grade;
     // }
     public void setGrade(int g) {
