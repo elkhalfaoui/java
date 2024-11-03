@@ -25,6 +25,7 @@ final class C extends A {
 // final variable => constant variable
 // final method => prevent overriding the method
 // final class => prevent inheritence from class
+
 public class Index {
     public static void main(String args[]) {
 
