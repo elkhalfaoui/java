@@ -1,5 +1,5 @@
 package tools; //! javac tools\Demo.java => java tools.Demo
-import java.lang.*;
+// import java.lang.*;
 
 class Student {
     int Id;
@@ -59,6 +59,9 @@ public class Demo {
 
         // new B(4); // anonymous object
         java.lang.System.out.println((int)(Math.pow(2, 3)));
+
+        B obj = new B();
+        System.out.println(obj);
         
     }
 }

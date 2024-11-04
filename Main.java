@@ -69,8 +69,8 @@ public class Main {
             System.out.println(student.Id + " | " + student.Name + " | " + Student.School);
         }
         
-        String name = "Sara";
-        String str = new String("Zakaria");
+        // String name = "Sara";
+        // String str = new String("Zakaria");
 
         StringBuffer strB = new StringBuffer("Ommi"); // StringBuffer is thread safe
         strB.append(" is thd best Mother");

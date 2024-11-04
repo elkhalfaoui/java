@@ -2,6 +2,7 @@ class A {
     public void show() {
         System.out.println("class A");
     }
+    @Override
     public String toString() {
         return "toString method in class A";
     }
@@ -10,6 +11,7 @@ class A {
     }
 }
 final class B extends A {
+    @Override
     public final void show() {
         System.out.println("class B");
     }
@@ -18,6 +20,7 @@ final class B extends A {
     }
 }
 final class C extends A {
+    @Override
     public final void show() {
         System.out.println("class C");
     }
