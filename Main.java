@@ -80,7 +80,7 @@ public class Main {
         // String strin = st.toString();
         System.out.println(st);
 
-        Class.forName("Student");// this method is to call a class if there is no object created
+        // Class.forName("Student");// this method is to call a class if there is no object created
 
         Student.SayHello();
 
