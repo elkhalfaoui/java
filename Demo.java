@@ -60,5 +60,16 @@ public class Demo {
 
         Calculator objArr[] = new Calculator[1];
         objArr[0] = obj1;
+        System.out.println(objArr[0]);
+
+        // String str = new String("Zakaria"); //! String is immutable (cannot change the value)
+        StringBuilder str = new StringBuilder("Zakaria");
+        str.append(" Elkhalfaoui");
+        // str += " elk";
+        System.out.println(str);
+        StringBuffer sb = new StringBuffer("AA");
+        sb.append("AABBCCDDEEFFGGHHIIJJKKLLMMNNOOPPQQRRSSTTUUVVXXWWZZ");
+        String s = sb.toString();
+        System.out.println(s);
     }
 }
