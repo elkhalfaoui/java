@@ -29,6 +29,7 @@ public class Demo {
         Calculator.addition(1, 3);
 
         int[] arr = new int[2];
+        arr[0] = 2;
         System.out.println(arr[0]);
         int[] nums = {1,2,3};
         for(int i:nums) {
@@ -67,6 +68,8 @@ public class Demo {
         str.append(" Elkhalfaoui");
         // str += " elk";
         System.out.println(str);
+
+        @SuppressWarnings("StringBufferMayBeStringBuilder")
         StringBuffer sb = new StringBuffer("AA");
         sb.append("AABBCCDDEEFFGGHHIIJJKKLLMMNNOOPPQQRRSSTTUUVVXXWWZZ");
         String s = sb.toString();
