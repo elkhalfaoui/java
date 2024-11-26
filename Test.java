@@ -1,3 +1,7 @@
+import tools.Calc;
+import tools.AdvenceCalc;
+// import tools.*;
+
 class Mobile {
     static String type;
     String brand;
@@ -35,5 +39,9 @@ public class Test {
         }
 
         // Class.forName("Mobile");
+
+        Calc calc1 = new AdvenceCalc();
+        int a = calc1.add(1, 2);
+        System.out.println(a);
     }
 }
