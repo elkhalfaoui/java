@@ -15,6 +15,8 @@ final class C extends A {
         System.out.println("class C method show()");
     }
 }
+
+
 // final + variable => constant
 // final + method => prevent method overriding
 // final + class => prevent inheritense
