@@ -1,15 +1,13 @@
-class A {
-    public void show() {
-        System.out.println("class A method show()");
-    }
+interface A {
+    void show();
 }
-final class B extends A {
+final class B implements A {
     @Override
     public void show() {
         System.out.println("class B method show()");
     }
 }
-final class C extends A {
+final class C implements A {
     @Override
     public void show() {
         System.out.println("class C method show()");
@@ -23,17 +21,16 @@ final class C extends A {
 public class Main {
     public static void main(String[] args) {
 
-        A objA = new A();
+        // A objA = new A();
         A objB = new B(); // upcasting
         A objC = new C();
 
-        objA.show();
+        // objA.show();
         objB.show();
         objC.show();
         
         B objB1 = (B)objB; // downcasting
         objB1.show();
 
-        Integer i = 8;
     }
 }
