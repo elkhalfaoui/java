@@ -49,10 +49,6 @@ public class Main {
     }
 }
 
-
-
-
-
 class Developper {
     public void DeveloppingApp(Computer laptop) {
         laptop.code();
