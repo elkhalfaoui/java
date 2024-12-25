@@ -33,6 +33,7 @@ public class Main {
         objB1.show();
 
         A objA = new A() {
+            @Override
             public void show() {
                 System.out.println("Inner A class");
             }
