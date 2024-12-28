@@ -32,8 +32,6 @@ public class Main {
         B objB1 = (B)objB; // downcasting
         objB1.show();
 
-
-        
         A objA = new A() {
             @Override
             public void show() {
