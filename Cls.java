@@ -6,6 +6,9 @@ class A {
     public A(int a) {
         System.out.println("class A int");
     }
+
+
+    
 }
 class B extends A {
     public B() {
@@ -17,6 +20,9 @@ class B extends A {
         System.out.println("class B int");
     }
 }
+
+
+
 class AdvancedCalculator extends Calculator {
     public double power(double a, double b) {
         return Math.pow(a, b);
